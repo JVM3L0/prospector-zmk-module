@@ -13,6 +13,8 @@
 #include <modifier_order.h>
 #include "display_colors.h"
 
+LV_FONT_DECLARE(Symbols_Semibold_32);
+
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 struct modifier_indicator_state {
