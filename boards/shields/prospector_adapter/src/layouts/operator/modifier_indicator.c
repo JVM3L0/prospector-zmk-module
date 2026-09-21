@@ -13,7 +13,7 @@
 #include <modifier_order.h>
 #include "display_colors.h"
 
-LV_FONT_DECLARE(Symbols_Semibold_32);
+LV_FONT_DECLARE(Symbols_Semibold_24);
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
@@ -89,7 +89,7 @@ ZMK_SUBSCRIPTION(widget_modifier_indicator, zmk_caps_word_state_changed);
 static lv_obj_t *create_mod_label(lv_obj_t *parent, const char *symbol) {
     lv_obj_t *label = lv_label_create(parent);
     lv_label_set_text(label, symbol);
-    lv_obj_set_style_text_font(label, &Symbols_Semibold_32, LV_PART_MAIN);
+    lv_obj_set_style_text_font(label, &Symbols_Semibold_24, LV_PART_MAIN);
     lv_obj_set_style_text_color(label, lv_color_hex(DISPLAY_COLOR_MOD_INACTIVE), LV_PART_MAIN);
     return label;
 }
