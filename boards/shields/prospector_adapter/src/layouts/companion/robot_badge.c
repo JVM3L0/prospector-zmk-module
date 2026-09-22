@@ -19,6 +19,8 @@
 #include <modifier_order.h>
 #include "display_colors.h"
 
+LV_FONT_DECLARE(FG_Medium_26);
+
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 #ifdef CONFIG_DT_HAS_ZMK_BEHAVIOR_CAPS_WORD_ENABLED
