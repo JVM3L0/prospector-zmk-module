@@ -4,10 +4,12 @@
 #include <zmk/display.h>
 #include <zmk/event_manager.h>
 #include <zmk/events/endpoint_changed.h>
+#include <zmk/events/ble_active_profile_changed.h>
 #include <zmk/events/wpm_state_changed.h>
 #include <zmk/events/battery_state_changed.h>
 #include <zmk/events/split_central_status_changed.h>
 #include <zmk/endpoints.h>
+#include <zephyr/random/random.h>
 #include <zmk/battery.h>
 #include <zmk/ble.h>
 #include <zmk/wpm.h>
