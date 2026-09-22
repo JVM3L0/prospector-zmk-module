@@ -22,6 +22,11 @@ config PROSPECTOR_STATUS_SCREEN_OPERATOR
     help
         Technical and information dense layout
 
+config PROSPECTOR_STATUS_SCREEN_COMPANION     
+    bool "Companion layout"                   
+    help                                       
+        Cute robot companion that reacts to    
+        battery, connection and typing speed
 endchoice
 
 config PROSPECTOR_ROTATE_DISPLAY_180
