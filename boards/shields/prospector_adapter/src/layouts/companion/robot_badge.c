@@ -20,6 +20,7 @@
 #include "display_colors.h"
 
 LV_FONT_DECLARE(FG_Medium_26);
+LV_FONT_DECLARE(FG_Medium_20);
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
