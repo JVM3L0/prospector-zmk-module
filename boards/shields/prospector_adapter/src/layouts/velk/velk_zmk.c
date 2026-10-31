@@ -4,6 +4,7 @@
  */
 #include <stdio.h>
 
+#include <zephyr/kernel.h>
 #include <zmk/display.h>
 #include <zmk/event_manager.h>
 #include <zmk/endpoints.h>
