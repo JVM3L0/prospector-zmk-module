@@ -9,7 +9,9 @@
 #elif defined(CONFIG_PROSPECTOR_STATUS_SCREEN_OPERATOR)
 #include "layouts/operator/status_screen.c"
 #elif defined(CONFIG_PROSPECTOR_STATUS_SCREEN_COMPANION)
-#include "layouts/companion/status_screen.c" 
+#include "layouts/companion/status_screen.c"
+#elif defined(CONFIG_PROSPECTOR_STATUS_SCREEN_VELK)
+#include "layouts/velk/status_screen.c"
 #else
 #error "No status screen layout selected"
 #endif

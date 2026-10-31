@@ -22,11 +22,17 @@ config PROSPECTOR_STATUS_SCREEN_OPERATOR
     help
         Technical and information dense layout
 
-config PROSPECTOR_STATUS_SCREEN_COMPANION     
-    bool "Companion layout"                   
-    help                                       
-        Cute robot companion that reacts to    
+config PROSPECTOR_STATUS_SCREEN_COMPANION
+    bool "Companion layout"
+    help
+        Cute robot companion that reacts to
         battery, connection and typing speed
+
+config PROSPECTOR_STATUS_SCREEN_VELK
+    bool "Velk layout"
+    help
+        Material 3 Expressive panel in the style of the Velksync app:
+        output card, battery arcs, Caps Lock, layer and modifier chips
 endchoice
 
 config PROSPECTOR_ROTATE_DISPLAY_180

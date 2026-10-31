@@ -1,0 +1,16 @@
+if PROSPECTOR_STATUS_SCREEN_VELK
+
+config ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
+    select LV_USE_LABEL
+    select LV_USE_FLEX
+    select LV_USE_ARC
+    select LV_USE_IMAGE
+
+# Medido no simulador: pico de ~27 KB em 64 bits, uns 30% a menos no nRF52.
+config LV_Z_MEM_POOL_SIZE
+    default 32768
+
+config ZMK_HID_INDICATORS
+    default y
+
+endif
